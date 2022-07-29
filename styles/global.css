@@ -128,8 +128,8 @@ footer {
 }
 #change-log-content {
     background-color: blanchedalmond;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
+    
 }
 
 
