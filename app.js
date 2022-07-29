@@ -77,11 +77,12 @@ function displayCountStats() {
 }
 function displaySlogans() {
     citySlogan.value = '';
+    sloganLoc.textContent = '';
     for (let slogan of sloganArr) {
         const sloganEl = document.createElement('p');
-        sloganLoc.textContent = slogan;
+        sloganEl.textContent = slogan;
         sloganEl.classList.add('slogan');
-        citySlogan.append(sloganEl);
+        sloganLoc.append(sloganEl);
     }
 }
 function displayName() {
