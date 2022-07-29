@@ -22,7 +22,85 @@
     </header>
 
     <main>
+        <section id="board" class="board">
+            <div id="top" class="top">    
+                <div id="console" class="console-box">
+                    <div class="city-box">
+                        <h2>City Name:</h2>
+                        <input type="text" id="city-input">
+                        <button id="city-submit">Submit</button>
+                    </div>
+                    <div class="selector-box">
+                        <h3>Picture Chooser</h3>
+                        <label for="city">
+                            City: 
+                            <select name="city" id="city-select">
+                                <option value="placehold">-select-</option>
+                                <option value="one">city 01</option>
+                                <option value="two">city 02</option>
+                                <option value="three">city 03</option>
+                            </select>
+                        </label>
+                        <label for="water">
+                            Water: 
+                            <select name="Water" id="water-select">
+                                <option value="placehold">-select-</option>
+                                <option value="one">water 01</option>
+                                <option value="two">water 02</option>
+                                <option value="three">water 03</option>
+                            </select>
+                        </label>
+                        <label>
+                            Landscape: 
+                            <select name="landscape" id="landscape-select">
+                                <option value="placehold">-Select-</option>
+                                <option value="one">Landscape 01</option>
+                                <option value="two">Landscape 02</option>
+                                <option value="three">Landscape 03</option>
+                            </select>
+                        </label>
+                        <label for="slogan" id="slogan-input">
+                            <h3>City Slogan:</h3>
+                            <input type="text" id="slogan-input-box">
+                            <button id="slogan-input-button">Add Slogan</button> 
+                        </label>
+                    </div>     
+                </div>
+                <div id="display" class="display-box">
+                    <div id="img-col">
+                        <div id="img-city" class="img-display">
 
+                        </div>
+                        <div id="img-water" class="img-display">
+
+                        </div>
+                        <div id="img-landscape" class="img-display">
+
+                        </div>
+                    </div>
+                    <div id="greeting-col">
+                        <div id="greeting-title">
+                            <h1>Greetings!</h1>
+                            <p>from:</p>
+                        </div>
+                        <div id="greeting-cityname">
+                            
+                        </div>
+                        <div id="greeting-slogan">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div id="change-log" class="bottom">
+                <div id="change-log-title">
+                        Change Log:
+                </div>
+                <div id="change-log-content">
+                    
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>&copy;2022 Software Developer</footer>
